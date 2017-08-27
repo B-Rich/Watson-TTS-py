@@ -23,9 +23,11 @@ get_file(link)
 
 ### Without auth()
 
-`from watson_tts_py import *`
-`link = parse("text that will be alive", "username", "password")`
-`get_file(link)`
+```python
+from watson_tts_py import *
+link = parse("text that will be alive", "username", "password")
+get_file(link)
+```
 
 Done! The file should be saved as "output.wav"
 
