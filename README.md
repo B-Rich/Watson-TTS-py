@@ -11,14 +11,15 @@ I think these are already preinstalled, so yeah.
 Download the script for now. You will be able to install it with `pip` later.
 
 Usage:
+```python
+from watson_tts_py import *
+link = parse("username", "password", "text that will be alive")
+get_file(link)
+```
 
-`from watson_tts_py import *`
-`link = parse("username", "password", "text that will be alive")`
-`get_file(link)`
+Done! The file should be saved as "**output.wav**"
 
-Done! The file should be saved as "output.wav"
-
-More stuff:
+# More stuff:
 
 You can pass the audio type that you want and the voice that you want to the function`parse()` when calling it.
 The default audio type is `.wav` and the default voice is `en-US_AllisonVoice`
@@ -27,7 +28,7 @@ And to change the file name, you can pass the name of your file to `get_file()` 
 Default file name is `output`
 
 
-An example:
+## An example:
 
 ```python
 from watson_tts_py import *
@@ -41,7 +42,7 @@ This will make a file called "TTS_output.ogg" that has what you want.
 
 Here is an example of running the script with parameters which is the same.
 
-An example:
+## An example:
 ```python
 from watson_tts_py import *
 
