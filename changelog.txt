@@ -1,2 +1,16 @@
-watson_tts_py v0.2
+watson_tts_py v0.1
 * returns the name of the file after writing to it. Really useful.
+
+watson_tts_py v0.2
+* added auth()
+* you can either use it to enter your username or password, or pass it when calling parse()
+* example:
+auth("username", "password")
+file = parse("cool text huh", audio_type="ogg", voice="en-US_LisaVoice")
+get_file(file)
+* added binary.
+it's not _literally_ binary, but it returns the content of the file without writing to it.
+pass it when calling get_file()
+get_file(file, binary=True)
+
+
