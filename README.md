@@ -8,7 +8,10 @@ Well, this doesn't require the `watson_developer_cloud_service` module because i
 I think these are already installed, so yeah.
 
 # How to install this?
-Download the script for now. You will be able to install it with `pip` later.
+You can use install it now from pip :).
+
+`sudo pip3 install watson-tts-py`
+
 
 # Usage:
 
