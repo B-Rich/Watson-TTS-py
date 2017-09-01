@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name="watson-tts-py",
-    packages=["watson-tts-py"],
+    name="watson_tts_py",
+    packages=["watson_tts_py"],
     version="0.2",
     description="A really simple wrapper for the Watson TTS API that doesn't require the watson_developer_cloud module and has more tools.",
     author="DizAzTor",
