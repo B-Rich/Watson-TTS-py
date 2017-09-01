@@ -1,5 +1,5 @@
 ## Why should i use this instead of using the one on GitHub?
-Well, this doesn't require the `watson_developer_cloud_service` module because it focuses on TTS.
+Well, this doesn't require the `watson_developer_cloud_service` module because it focuses on TTS. And it has more stuff for you to use, so why not use it?
 
 # Stuff you need to be able to run this:
 0. requests
@@ -10,7 +10,7 @@ I think these are already installed, so yeah.
 # How to install this?
 You can use install it now from pip :).
 
-`sudo pip3 install watson-tts-py`
+`sudo pip3 install watson_tts_py`
 
 
 # Usage:
@@ -18,7 +18,7 @@ You can use install it now from pip :).
 ### With auth()
 
 ```python
-from watson import *
+from watson_tts_py import *
 auth("username", "password")
 link = parse("cool text huh")
 get_file(link)
@@ -26,9 +26,11 @@ get_file(link)
 
 ### Without auth()
 
-`from watson_tts_py import *`
-`link = parse("text that will be alive", "username", "password")`
-`get_file(link)`
+```python
+from watson_tts_py import *
+link = parse("text that will be alive", "username", "password")
+get_file(link)
+````
 
 Done! The file should be saved as "output.wav"
 
